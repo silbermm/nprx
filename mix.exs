@@ -20,7 +20,7 @@ defmodule NPR.Mixfile do
   def application do
     [
       extra_applications: [:logger],
-      mod: {NPR.Application, []}
+      mod: {NPRx.Application, []}
     ]
   end
 
@@ -36,7 +36,8 @@ defmodule NPR.Mixfile do
       {:mock, "~> 0.3.1", only: [:test, :integration]},
       {:dialyxir, "~> 0.5.1", only: [:dev], runtime: false},
       {:ex_doc, "~> 0.16", only: :dev, runtime: false},
-      {:earmark, "~> 1.1", only: :dev}
+      {:earmark, "~> 1.1", only: :dev},
+      {:mix_test_watch, "~> 0.3", only: :dev, runtime: false}
     ]
   end
   defp package do

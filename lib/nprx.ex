@@ -1,18 +1,6 @@
-defmodule NPR do
+defmodule NPRx do
   @moduledoc """
-  Documentation for NPR.
+  Interact with the NPR One API.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> NPR.hello
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end
