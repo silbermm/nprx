@@ -5,6 +5,7 @@ defmodule NPRx.Application do
 
   def start(_type, _args) do
     children = [
+      {NPRx.HTTP.Worker, []},
       {NPRx.Auth, []},
     ]
 
