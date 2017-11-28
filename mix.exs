@@ -6,7 +6,7 @@ defmodule NPR.Mixfile do
       app: :nprx,
       source_url: "https://github.com/silbermm/nprx",
       elixirc_paths: elixirc_paths(Mix.env),
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
       deps: deps(),
@@ -37,7 +37,6 @@ defmodule NPR.Mixfile do
       {:dialyxir, "~> 0.5.1", only: [:dev], runtime: false},
       {:ex_doc, "~> 0.16", only: :dev, runtime: false},
       {:earmark, "~> 1.1", only: :dev},
-      {:http_builder, "~> 0.2.5"},
       {:mix_test_watch, "~> 0.3", only: :dev, runtime: false}
     ]
   end
