@@ -6,7 +6,6 @@ defmodule NPRx.HTTP do
   @base_url "https://api.npr.org"
 
   def get_token() do
-    IO.puts "getting token"
     HTTPoison.post("#{@base_url}/authorization/v2/token", auth_body(), %{
       "Content-type" => "application/x-www-form-urlencoded"})
     |> parse_body
@@ -23,7 +22,6 @@ defmodule NPRx.HTTP do
   end
 
   defp auth_body() do
-    IO.puts @app_id
     ["grant_type=client_credentials",
      "&client_id=#{URI.encode_www_form(@app_id)}",
      "&client_secret=#{URI.encode_www_form(@app_secret)}"]

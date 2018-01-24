@@ -1,12 +1,11 @@
 defmodule NPRx.StationFinder do
   @moduledoc """
   Find stations and station information. This can be stations close to your current geographic location or any number of other criteria. For more detailed information see [the NPR docs](https://dev.npr.org/api/#!/stationfinder/searchStations)
-  
   """
   import NPRx.HTTP
 
   @typedoc """
-  Allowed paramters for stations endpoint
+  Allowed parameters for stations endpoint
   """
   @type station_query_params :: [q: String.t, city: String.t, state: String.t, lat: String.t, lon: String.t]
 

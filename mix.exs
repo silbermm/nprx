@@ -37,7 +37,8 @@ defmodule NPR.Mixfile do
       {:dialyxir, "~> 0.5.1", only: [:dev], runtime: false},
       {:ex_doc, "~> 0.16", only: :dev, runtime: false},
       {:earmark, "~> 1.1", only: :dev},
-      {:mix_test_watch, "~> 0.3", only: :dev, runtime: false}
+      {:mix_test_watch, "~> 0.3", only: :dev, runtime: false},
+      {:exvcr, "~> 0.9.1", only: :test}
     ]
   end
   defp package do

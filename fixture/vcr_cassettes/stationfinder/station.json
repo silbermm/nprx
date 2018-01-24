@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "<<access_key>>"
+      },
+      "method": "get",
+      "options": {
+        "connect_timeout": 2000,
+        "pool": "default"
+      },
+      "request_body": "",
+      "url": "https://api.npr.org/stationfinder/v3/stations/704"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"version\":\"1.0\",\"href\":\"https:\\/\\/api.npr.org\\/stationfinder\\/v3\\/stations\\/704\",\"attributes\":{\"eligibility\":{\"nprOne\":true,\"format\":null,\"status\":\"1\",\"musicOnly\":false},\"orgId\":\"704\",\"network\":{\"name\":\"91.7 WVXU\",\"inheritingFrom\":\"703\",\"usesInheritance\":true,\"currentOrgId\":\"704\",\"tier1\":{\"tier2\":[{\"name\":\"WGUC-FM\",\"id\":\"408\",\"usesInheritance\":false},{\"tier3\":[{\"name\":\"WMUB-FM\",\"id\":\"1093\",\"usesInheritance\":true}],\"name\":\"WVXU-FM\",\"id\":\"704\",\"usesInheritance\":true}],\"name\":\"CINCINNATI PUBLIC RADIO, INC.\",\"id\":\"703\",\"usesInheritance\":false,\"status\":\"10\"}},\"newscast\":{\"id\":\"703\",\"recency\":120},\"guid\":\"4fcf701218e742528ff8d4379dda3fe8\",\"brand\":{\"band\":\"FM\",\"call\":\"WVXU\",\"frequency\":\"91.7\",\"marketCity\":\"Cincinnati\",\"marketState\":\"OH\",\"name\":\"91.7 WVXU\",\"tagline\":\"Connecting You to a World of Ideas\"}},\"items\":[],\"links\":{\"brand\":[{\"rel\":\"homepage\",\"href\":\"http:\\/\\/www.wvxu.org\",\"content-type\":\"text\\/html\"},{\"rel\":\"logo\",\"href\":\"https:\\/\\/media.npr.org\\/images\\/stations\\/nprone_logos\\/wvxu.png\",\"content-type\":\"image\\/png\"},{\"rel\":\"small-logo\",\"href\":\"https:\\/\\/media.npr.org\\/images\\/stations\\/logos\\/wvxu.gif\",\"content-type\":\"image\\/gif\"}],\"streams\":[{\"guid\":\"7524b68db1c440d7815f3536f9d8a879\",\"href\":\"https:\\/\\/stream.cinradio.org\\/wvxu\",\"isPrimaryStream\":true,\"title\":\"91.7 WVXU\",\"typeId\":\"10\",\"typeName\":\"Audio MP3 Stream\"},{\"guid\":\"2b8b7215047a462ba49b62e82b5927a3\",\"href\":\"https:\\/\\/stream.cinradio.org\\/xponential\",\"isPrimaryStream\":false,\"title\":\"XPoNential on WVXU HD-2\",\"typeId\":\"10\",\"typeName\":\"Audio MP3 Stream\"}],\"podcasts\":[{\"guid\":\"35d01196cbad4c6aa125970bd7897363\",\"href\":\"https:\\/\\/wvxu.drupal.publicbroadcasting.net\\/podcasts\\/1568\\/rss.xml\",\"title\":\"Cincinnati Edition\",\"typeId\":\"9\",\"typeName\":\"Podcast\"},{\"guid\":\"b08db932bd0f4b3da29375a82f33f4cd\",\"href\":\"https:\\/\\/wvxu.drupal.publicbroadcasting.net\\/podcasts\\/74914\\/rss.xml\",\"title\":\"Start Hear\",\"typeId\":\"9\",\"typeName\":\"Podcast\"},{\"guid\":\"5b78cb8c0714452ca9e715c3fc333b19\",\"href\":\"https:\\/\\/wvxu.drupal.publicbroadcasting.net\\/podcasts\\/1564\\/rss.xml\",\"title\":\"Around Cincinnati\",\"typeId\":\"9\",\"typeName\":\"Podcast\"},{\"guid\":\"1ab121baad014fd5bb20409dd64bc95f\",\"href\":\"https:\\/\\/wvxu.drupal.publicbroadcasting.net\\/podcasts\\/1659\\/rss.xml\",\"title\":\"Focus on Technology\",\"typeId\":\"9\",\"typeName\":\"Podcast\"},{\"guid\":\"6aacc0d17cc443eb93986f9d810344a9\",\"href\":\"https:\\/\\/wvxu.drupal.publicbroadcasting.net\\/podcasts\\/80646\\/rss.xml\",\"title\":\"Looking Up\",\"typeId\":\"9\",\"typeName\":\"Podcast\"},{\"guid\":\"c5aaced02ada4b93bf55650359cabb89\",\"href\":\"https:\\/\\/www.cinradio.org\\/podcasts\\/90secondnaturalist.xml\",\"title\":\"The 90-Second Naturalist\",\"typeId\":\"9\",\"typeName\":\"Podcast\"},{\"guid\":\"e09151e6ce364409bccbed0eb3c33d89\",\"href\":\"https:\\/\\/wvxu.drupal.publicbroadcasting.net\\/podcasts\\/83551\\/rss.xml\",\"title\":\"Local Exposure\",\"typeId\":\"9\",\"typeName\":\"Podcast\"}],\"donation\":[{\"guid\":\"b7018e717d4341adaa1ad939030f8a24\",\"href\":\"https:\\/\\/bit.ly\\/supportwvxu\",\"title\":\"Pledge Online\",\"typeId\":\"4\",\"typeName\":\"Pledge Page\"},{\"guid\":\"c92597fc2ce14c1bb39f6be195b9b102\",\"href\":\"https:\\/\\/ondemand.npr.org\\/npr-mp4\\/donation\\/703_05aeebc5866d9508b1d3d768528007c0.mp4\",\"title\":null,\"typeId\":\"28\",\"typeName\":\"Station Pledge Audio\"}]},\"errors\":[]}",
+      "headers": {
+        "Date": "Wed, 24 Jan 2018 03:01:23 GMT",
+        "Server": "Apache",
+        "X-Powered-By": "PHP/5.6.30",
+        "X-RateLimit-Limit": "300",
+        "X-RateLimit-Remaining": "297",
+        "X-RateLimit-Reset": "17918",
+        "Cache-Control": "max-age=0",
+        "Expires": "Wed, 24 Jan 2018 03:01:23 GMT",
+        "Access-Control-Allow-Origin": "*",
+        "X-Robots-Tag": "noindex",
+        "X-Frame-Options": "DENY",
+        "Content-Length": "3205",
+        "Content-Type": "application/json;",
+        "Vary": "Accept-Encoding"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
