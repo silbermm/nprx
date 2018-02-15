@@ -61,6 +61,7 @@ defmodule NPRx.Auth do
   end
 
   defp is_expired?(state) do
+    IO.inspect state
     NaiveDateTime.utc_now
     |> NaiveDateTime.compare(state.expires_at)
     |> case do
